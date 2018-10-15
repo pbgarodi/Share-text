@@ -1,0 +1,12 @@
+{% extends "users/base.html" %}
+{% block content %}
+    <div class="content-section">
+        <form method="GET">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Share Text</legend>
+                {{ message }}
+            </fieldset>
+        </form>
+    </div>
+{% endblock content %}

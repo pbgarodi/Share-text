@@ -1,0 +1,14 @@
+{% extends "users/base.html" %}
+{% block content %}
+    <div class="content-section">
+        <form method="GET">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Share Text</legend>
+    Shareable link:<textarea name="url" rows="10" cols="100" readonly >{{ link }}</textarea>
+    Secret key:<textarea name="fname" rows="3" cols="70" readonly>{{ secret_key }}</textarea><br>
+
+            </fieldset>
+        </form>
+    </div>
+{% endblock content %}
