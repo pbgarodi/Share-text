@@ -16,10 +16,10 @@ This application use to share the text with other user
 - pip==8.1.1
 
 ## python dependencies
-Django==1.11.4
-djangorestframework==3.6.4
-pyjwt==1.6.4
-django-session-timeout==0.0.3 
-pycrypto==2.6.1
+- Django==1.11.4
+- djangorestframework==3.6.4
+- pyjwt==1.6.4
+- django-session-timeout==0.0.3 
+- pycrypto==2.6.1
 
 
