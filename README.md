@@ -6,10 +6,10 @@ This application use to share the text with other user
     1. Receive the register request if user is not register,
     2. Once registation is done it will redirect to login page 
     3. Once user login then it will redirect to home page 
-    4. In home page you can type text and Optionally you can encrypt text then hit Share buttom then it will generate shareable url
+    4. In home page you can type text and Optionally you can encrypt text then hit Share buttom then it will generate shareable url.
 
     5. Then you can share url with other user both user should be loged in
-        If text encrypted you ned to shared decryption key as well with other user 
+        If text encrypted you ned to shared decryption key as well with other user. 
 
 ## python packages
 - python==2.7 
