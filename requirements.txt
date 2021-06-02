@@ -1,6 +1,5 @@
 Django==2.2.10
 djangorestframework==3.9.2
-PyJWT==1.7.1 
+PyJWT==1.7.1
 django-session-timeout==0.0.4
 pycrypto==2.6.1
-

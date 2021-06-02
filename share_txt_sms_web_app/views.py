@@ -10,8 +10,8 @@ from .forms import Share_Text_Form
 from .forms import Share_Text_Decryption_key_Form
 
 from .models import Message
-from util.comman_utility import CommonUtility
-from util.comman_utility import CommonUtility
+from .util.comman_utility import CommonUtility
+from .util.comman_utility import CommonUtility
 from Share_Text import settings
 import uuid
 import jwt
