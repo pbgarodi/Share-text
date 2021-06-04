@@ -3,7 +3,7 @@ version: '3'
 services:
   web:
     build: .
-    command: bash -c "python manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python3 manage.py runserver 0.0.0.0:8000"
     container_name: share_text_app
     volumes:
       - .:/share_text_app
